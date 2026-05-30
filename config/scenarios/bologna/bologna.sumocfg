@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="joined_buslanes.net.xml"/>
+        <route-files value="bologna_cars.rou.xml"/>
+        <additional-files value="../../vtypes.xml,joined_tls.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="5400"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>

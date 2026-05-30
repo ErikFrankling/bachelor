@@ -1,0 +1,15 @@
+<sumoConfiguration>
+    <input>
+        <net-file value="../networks/glosa_two_signal.net.xml"/>
+        <route-files value="../demand/glosa_two_signal.rou.xml"/>
+        <additional-files value="../vtypes.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="2400"/>
+        <step-length value="0.1"/>
+    </time>
+    <report>
+        <no-step-log value="true"/>
+    </report>
+</sumoConfiguration>

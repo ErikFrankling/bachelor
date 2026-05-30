@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <rerouter id="rerouter_down_78" edges="edge_down_78" pos="1000.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_down_78_2" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_in_69" edges="edge_in_69" pos="-15750.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_in_69_2" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_med0_75" edges="edge_med0_75" pos="-5300.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_med0_75_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_med1_71" edges="edge_med1_71" pos="-11270.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_med1_71_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_med1_75" edges="edge_med1_75" pos="-4900.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_med1_75_2" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_med2_71" edges="edge_med2_71" pos="-10670.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_med2_71_4" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_med2_75" edges="edge_med2_75" pos="-4575.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_med2_75_2" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_med_69" edges="edge_med_69" pos="-14240.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_med_69_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_med_70" edges="edge_med_70" pos="-12250.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_med_70_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_med_72" edges="edge_med_72" pos="-8400.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_med_72_2" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_med_78" edges="edge_med_78" pos="-105.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_med_78_2" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_merge1_75" edges="edge_merge1_75" pos="-4720.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_merge1_75_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_merge2_75" edges="edge_merge2_75" pos="-4440.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_merge2_75_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_merge4_71" edges="edge_merge4_71" pos="-9240.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_merge4_71_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_merge5_71" edges="edge_merge5_71" pos="-9890.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_merge5_71_4" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_merge6_71" edges="edge_merge6_71" pos="-10180.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_merge6_71_5" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_merge7_71" edges="edge_merge7_71" pos="-10530.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_merge7_71_6" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_merge_69" edges="edge_merge_69" pos="-13450.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_merge_69_4" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_merge_70" edges="edge_merge_70" pos="-11120.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_merge_70_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_merge_72" edges="edge_merge_72" pos="-8250.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_merge_72_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_merge_78" edges="edge_merge_78" pos="0.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_merge_78_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_up_69" edges="edge_up_69" pos="-15200.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_up_69_3" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_up_72" edges="edge_up_72" pos="-8920.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_up_72_2" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_up_75" edges="edge_up_75" pos="-5730.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_up_75_2" disallow="trailer" />
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_up_78" edges="edge_up_78" pos="-520.00,0.00">
+        <interval begin="0.00" end="99999.00">
+            <closingLaneReroute id="edge_up_78_2" disallow="trailer" />
+        </interval>
+    </rerouter>
+</additional>

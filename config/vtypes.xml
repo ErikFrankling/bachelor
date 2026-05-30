@@ -1,0 +1,42 @@
+<routes>
+    <vType id="human" vClass="passenger" length="5"
+           carFollowModel="IDM"
+           accel="2.6" decel="2.0" emergencyDecel="4.5"
+           tau="1.0" minGap="2.5" speedFactor="1.0" speedDev="0.1"
+           color="255,255,0"/>
+
+    <vType id="av_basic" vClass="passenger" length="5"
+           carFollowModel="IDM"
+           accel="3.5" decel="2.2" emergencyDecel="4.5"
+           tau="0.6" minGap="1.5" speedFactor="1.0" speedDev="0.0"
+           color="0,200,200"/>
+
+    <vType id="av_krauss" vClass="passenger" length="5"
+           carFollowModel="Krauss"
+           accel="3.5" decel="2.2" emergencyDecel="4.5"
+           sigma="0.0" tau="0.6" minGap="1.5" speedFactor="1.0" speedDev="0.0"
+           color="0,200,200"/>
+
+    <vType id="av_acc" vClass="passenger" length="5"
+           carFollowModel="ACC"
+           accel="1.0" maxSpeed="33.33"
+           tau="1.5" minGap="2.0" speedDev="0.0"
+           color="80,160,255"/>
+
+    <vType id="av_cacc" vClass="passenger" length="5"
+           carFollowModel="CACC"
+           accel="1.0" maxSpeed="33.33"
+           tau="0.6" minGap="1.0" speedDev="0.0"
+           color="120,80,255">
+        <param key="headwayTimeACC" value="1.5"/>
+    </vType>
+
+    <vType id="av_glosa" vClass="passenger" length="5"
+           carFollowModel="IDM"
+           accel="2.6" decel="2.0" emergencyDecel="4.5"
+           tau="1.0" minGap="2.5" speedFactor="1.0" speedDev="0.1"
+           color="0,180,80">
+        <param key="has.glosa.device" value="true"/>
+        <param key="device.glosa.range" value="300"/>
+    </vType>
+</routes>

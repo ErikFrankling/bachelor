@@ -1,0 +1,15 @@
+<sumoConfiguration>
+    <input>
+        <net-file value="../networks/i80_vsl.net.xml"/>
+        <route-files value="../demand/i80_vsl.rou.xml"/>
+        <additional-files value="../vtypes.xml,../demand/i80_vsl.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="18000"/>
+        <step-length value="1"/>
+    </time>
+    <report>
+        <no-step-log value="true"/>
+    </report>
+</sumoConfiguration>

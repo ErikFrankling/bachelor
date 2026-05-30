@@ -1,0 +1,10 @@
+results/raw/
+results/**/raw/
+build/
+.direnv/
+__pycache__/
+*.pyc
+*.tmp.xml
+*.aux
+*.log
+*.tex

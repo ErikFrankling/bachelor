@@ -1,0 +1,14 @@
+<routes>
+    <route id="west_east" edges="left1A1 A1B1 B1C1 C1D1 D1right1"/>
+    <route id="east_west" edges="right1D1 D1C1 C1B1 B1A1 A1left1"/>
+    <route id="south_north_1" edges="bottom1B0 B0B1 B1B2 B2top1"/>
+    <route id="north_south_1" edges="top1B2 B2B1 B1B0 B0bottom1"/>
+    <route id="south_north_2" edges="bottom2C0 C0C1 C1C2 C2top2"/>
+    <route id="north_south_2" edges="top2C2 C2C1 C1C0 C0bottom2"/>
+    <flow id="west_east" route="west_east" begin="0" end="2400" vehsPerHour="650" departSpeed="max" departLane="best"/>
+    <flow id="east_west" route="east_west" begin="0" end="2400" vehsPerHour="420" departSpeed="max" departLane="best"/>
+    <flow id="south_north_1" route="south_north_1" begin="0" end="2400" vehsPerHour="90" departSpeed="max" departLane="best"/>
+    <flow id="north_south_1" route="north_south_1" begin="0" end="2400" vehsPerHour="90" departSpeed="max" departLane="best"/>
+    <flow id="south_north_2" route="south_north_2" begin="0" end="2400" vehsPerHour="90" departSpeed="max" departLane="best"/>
+    <flow id="north_south_2" route="north_south_2" begin="0" end="2400" vehsPerHour="90" departSpeed="max" departLane="best"/>
+</routes>

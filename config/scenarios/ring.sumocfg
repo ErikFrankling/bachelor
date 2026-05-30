@@ -1,0 +1,15 @@
+<sumoConfiguration>
+    <input>
+        <net-file value="../networks/ring.net.xml"/>
+        <route-files value="../demand/ring.rou.xml"/>
+        <additional-files value="../vtypes.xml,../demand/ring.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="4000"/>
+        <step-length value="0.1"/>
+    </time>
+    <report>
+        <no-step-log value="true"/>
+    </report>
+</sumoConfiguration>
